@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Positioning</title>
+
+	<style>
+		.mainTableColumns {
+			display: inline-block;
+			padding: 5px 20px 5px 20px;
+			font-size: 14px;
+			background-color: #ffffff;
+			/* shadow */
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+			border-radius: 10px;
+			/* all in center */
+			text-align: center;
+			/* расстояние между строками */
+			line-height: 2;
+			font-weight: bold;
+			font-size: 14px;
+			margin: 10px;
+			font-family: sans-serif;
+		}
+
+		.subTable_Row_0_Col_0 {
+			font-size: 20px;
+		}
+
+		.ENTERPRISE_LineColor {
+			border-bottom: 3px solid #c73756;
+		}
+
+		.PROFESSIONAL_LineColor {
+			border-bottom: 3px solid #d7913b;
+		}
+
+		.STANDARD_LineColor {
+			border-bottom: 3px solid #2b6689;
+		}
+
+		.BASIC_LineColor {
+			border-bottom: 3px solid #63bb34;
+		}
+
+		.subTable_Row_1_Col_0_money69 {
+			font-size: 42px;
+		}
+
+		.subTable_Row_2_Col_0_perMonth {
+			color: #d1d1d1;
+
+		}
+
+		.buyButton {
+			border-radius: 5px;
+			padding: 5px 20px 5px 20px;
+			font-size: 24px;
+			color: #ffffff;
+			line-height: 3;
+		}
+
+		.buyButton_ENTERPRISE {
+			background-color: #c73756;
+		}
+
+		.buyButton_PROFESSIONAL {
+			background-color: #d7913b;
+		}
+
+		.buyButton_STANDARD {
+			background-color: #2b6689;
+		}
+
+		.buyButton_BASIC {
+			background-color: #63bb34;
+		}
+	</style>
+
+</head>
+
+<body>
+	<!-- table 4 columns 1 row -->
+	<table>
+		<tr>
+			<td class="mainTableColumns">
+				<!-- ENTERPRISE table 8 rows 1 column -->
+				<table>
+					<tr>
+						<td class="subTable_Row_0_Col_0 ENTERPRISE_LineColor">
+							ENTERPRISE
+						</td>
+					</tr>
+					<tr>
+						<td class="subTable_Row_1_Col_0_money69">
+							$69
+						</td>
+					</tr>
+					<tr>
+						<td class="subTable_Row_2_Col_0_perMonth">
+							per month
+						</td>
+					</tr>
+					<tr>
+						<td>
+							10 GB disk space
+						</td>
+					</tr>
+					<tr>
+						<td>
+							100 GB monthly bandwidth
+						</td>
+					</tr>
+					<tr>
+						<td>
+							20 email accounts
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Unlimited subdomains
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<span class="buyButton buyButton_ENTERPRISE">
+								BUY
+							</span>
+						</td>
+					</tr>
+				</table>
+			</td>
+			<td class="mainTableColumns">
+				<!-- PROFESSIONAL table 8 rows 1 column -->
+				<table>
+					<tr>
+						<td class="subTable_Row_0_Col_0 PROFESSIONAL_LineColor">
+							PROFESSIONAL
+						</td>
+					</tr>
+					<tr>
+						<td class="subTable_Row_1_Col_0_money69">
+							$29
+						</td>
+					</tr>
+					<tr>
+						<td class="subTable_Row_2_Col_0_perMonth">
+							per month
+						</td>
+					</tr>
+					<tr>
+						<td>
+							5 GB disk space
+						</td>
+					</tr>
+					<tr>
+						<td>
+							60 GB monthly bandwidth
+						</td>
+					</tr>
+					<tr>
+						<td>
+							10 email accounts
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Unlimited subdomains
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<span class="buyButton buyButton_PROFESSIONAL">
+								BUY
+							</span>
+						</td>
+					</tr>
+				</table>
+			</td>
+			<td class="mainTableColumns">
+				<!-- STANDARD table 8 rows 1 column -->
+				<table>
+					<tr>
+						<td class="subTable_Row_0_Col_0 STANDARD_LineColor">
+							STANDARD
+						</td>
+					</tr>
+					<tr>
+						<td class="subTable_Row_1_Col_0_money69">
+							$19
+						</td>
+					</tr>
+					<tr>
+						<td class="subTable_Row_2_Col_0_perMonth">
+							per month
+						</td>
+					</tr>
+					<tr>
+						<td>
+							3 GB disk space
+						</td>
+					</tr>
+					<tr>
+						<td>
+							30 GB monthly bandwidth
+						</td>
+					</tr>
+					<tr>
+						<td>
+							5 email accounts
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Unlimited subdomains
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<span class="buyButton buyButton_STANDARD">
+								BUY
+							</span>
+						</td>
+					</tr>
+				</table>
+			</td>
+			<td class="mainTableColumns">
+				<!-- BASIC table 8 rows 1 column -->
+				<table>
+					<tr>
+						<td class="subTable_Row_0_Col_0 BASIC_LineColor">
+							BASIC
+						</td>
+					</tr>
+					<tr>
+						<td class="subTable_Row_1_Col_0_money69">
+							$9
+						</td>
+					</tr>
+					<tr>
+						<td class="subTable_Row_2_Col_0_perMonth">
+							per month
+						</td>
+					</tr>
+					<tr>
+						<td>
+							1 GB disk space
+						</td>
+					</tr>
+					<tr>
+						<td>
+							10 GB monthly bandwidth
+						</td>
+					</tr>
+					<tr>
+						<td>
+							2 email accounts
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Unlimited subdomains
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<span class="buyButton buyButton_BASIC">
+								BUY
+							</span>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+</body>
+
+</html>
